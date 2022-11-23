@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8d961cf-4bd0-47c3-8faf-17035893c6a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project_babbly/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_babbly/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_babbly/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_babbly/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Project_babbly_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_babbly_backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_babbly/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_babbly/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_babbly/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_babbly/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
