@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Project_babbly_backend.iml" filepath="$PROJECT_DIR$/.idea/Project_babbly_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SEI_39_Script_Lab/u4/.idea/u4.iml" filepath="$PROJECT_DIR$/../SEI_39_Script_Lab/u4/.idea/u4.iml" />
     </modules>
   </component>
 </project>
