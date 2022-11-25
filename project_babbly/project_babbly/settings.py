@@ -23,12 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY')
+# SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'administration.Account'
 
@@ -98,24 +99,25 @@ WSGI_APPLICATION = 'project_babbly.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'babbly',
-#         'USER': 'project_babbly',
-#         'PASSWORD': 'password',
-#         'HOST': 'localhost',
+#         'NAME': config('NAME'),
+#         'USER': config('DB_USER'),
+#         'PASSWORD': config('PASSWORD'),
+#         'HOST': config('HOST'),
 #         'PORT': '5432',
 #     }
-
+# }
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('PASSWORD'),
-        'HOST': config('HOST'),
+        'NAME': os.environ.get('NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('PASSWORD'),
+        'HOST': os.environ.get('HOST'),
         'PORT': '5432',
     }
 }
